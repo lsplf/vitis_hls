@@ -217,7 +217,8 @@ module tb_hls_accl;
             join
         end
     endtask
-
+	
+	// add clk
     // clock generation
     always #(PERIOD/2) clk = ~clk;
 
